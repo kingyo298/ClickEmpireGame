@@ -1,0 +1,46 @@
+body{
+  font-family: Futura!important;
+  letter-spacing: 0.03em!important;
+}
+
+img{
+  max-width: 100%;
+  vertical-align: bottom;
+  height: auto;
+}
+.bg-main{
+  background-color: #0A1931;
+}
+.bg-white{
+  background-color: #EFEFEF;
+}
+.text-white{
+  color: #EFEFEF;
+}
+.bg-blue{
+  background-color: #185ADB;
+}
+.pb1em{
+  padding-bottom: 1em;
+}
+.text-yellow{
+  color: #FFC947;
+}
+.hover{
+  cursor:pointer;
+}
+.hover:hover{
+  opacity: 0.9;
+}
+.item-list-height{
+  height: 80%;
+}
+.item:hover{
+  border: 2px solid steelblue;
+  cursor: pointer;
+}
+@media screen and (max-width : 768px){
+  .item-list-height{
+    height: 50%;
+  }
+}
